@@ -6,3 +6,7 @@ create table IF NOT EXISTS STV2024111152__DWH.h_transactions (
 	load_dt datetime not null,
     load_src varchar(60),
     constraint c_h_сurrencies_pk primary key (hk_operation_id) ENABLED)
+
+
+
+	

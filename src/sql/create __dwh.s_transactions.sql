@@ -12,3 +12,6 @@ create table IF NOT EXISTS STV2024111152__DWH.s_transactions (
 	transaction_dt timestamp NULL,
 	load_dt datetime not null,
     load_src varchar(60))
+
+
+	

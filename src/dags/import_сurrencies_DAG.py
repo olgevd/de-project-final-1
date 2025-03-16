@@ -63,3 +63,5 @@ def final_project_dag_upload_сurrencies():
     )
 
 s3_dag = final_project_dag_upload_сurrencies()
+
+

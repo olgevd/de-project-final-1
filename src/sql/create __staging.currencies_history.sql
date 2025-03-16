@@ -18,3 +18,6 @@ as select date_update,
  from STV2024111152__STAGING.сurrencies
  order by currencies.date_update, currency_code, currency_code_with
  segmented by hash(currencies.date_update, currencies.currency_code) all nodes KSAFE 1;
+
+
+ 

@@ -7,3 +7,5 @@ create table IF NOT EXISTS STV2024111152__DWH.global_metrics (
 	cnt_transactions int NULL,
 	avg_transactions_per_account numeric(15,2) NOT NULL,
 	cnt_accounts_make_transactions int NOT NULL)
+
+	

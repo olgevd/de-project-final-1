@@ -40,3 +40,5 @@ as select
  order by transactions.transaction_dt,
           transactions.operation_id
  segmented by hash(transactions.transaction_dt, transactions.operation_id) all nodes KSAFE 1
+
+ 
